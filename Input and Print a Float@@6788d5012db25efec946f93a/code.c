@@ -1,9 +1,12 @@
 #include <stdio.h>
 
 int main() {
-    int testInteger;
-    printf("Enter an integer: ");
-    scanf("%f", &testInteger);
-    printf("Number= testInteger", testInteger);
+    float number;
+
+    printf("Enter a floating-point number: ");
+    scanf("%f", &number);
+
+    printf("You entered: %f\n", number);
+
     return 0;
 }
