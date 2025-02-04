@@ -3,7 +3,7 @@
 int main() {
     float number;
 
-    printf(" ");
+   // printf(" ");
     scanf("%f", &number);
 
     printf("You entered: %.2f\n", number);
