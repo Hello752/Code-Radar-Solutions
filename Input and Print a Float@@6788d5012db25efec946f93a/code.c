@@ -2,8 +2,7 @@
 
 int main() {
     int testInteger;
-    printf("Enter an integer: ");
     scanf("%f", &testInteger);
-    printf("Number = %f", testInteger);
+    printf("Number\n", testInteger);
     return 0;
 }
