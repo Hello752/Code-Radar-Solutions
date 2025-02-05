@@ -2,7 +2,8 @@
 
 int main() {
 
-    int a, b ;
+    int a ;
+    int b ;
     printf("Output = %d", a & b);
 
     return 0;
