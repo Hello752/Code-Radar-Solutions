@@ -11,7 +11,7 @@ int main() {
     result = a | b;
 
     // Output the result
-    printf(" %d\n", result);
+    printf( result);
 
     return 0;
 }
