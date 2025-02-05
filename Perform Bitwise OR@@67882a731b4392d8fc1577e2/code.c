@@ -1,4 +1,4 @@
-Loading Code...nclude <stdio.h>
+
 #include <stdio.h>
 int main() {
     int a, b, result;
