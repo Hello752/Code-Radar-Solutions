@@ -1,8 +1,19 @@
 #include <stdio.h>
+
 int main() {
-    int a;  // Binary: 0101
-    int b;  // Binary: 0011
-    int result = a & b;  // 0101 & 0011 = 0001
-    printf(" %d\n", result);  // Output: 1
+    int num1, num2, result;
+
+    // Input two integers
+    printf("Enter the first integer: ");
+    scanf("%d", &num1);
+    printf("Enter the second integer: ");
+    scanf("%d", &num2);
+
+    // Perform bitwise OR operation
+    result = num1 | num2;
+
+    // Print the result
+    printf("Result of %d | %d = %d\n", num1, num2, result);
+
     return 0;
 }
