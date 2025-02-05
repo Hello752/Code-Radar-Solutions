@@ -1,18 +1,17 @@
+Loading Code...nclude <stdio.h>
 #include <stdio.h>
-
 int main() {
-    int num1, num2, result;
+    int a, b, result;
 
     // Input two integers
-
-    scanf("%d", &num1);
-    scanf("%d", &num2);
+    printf("Enter two space-separated integers: ");
+    scanf("%d %d", &a, &b);
 
     // Perform bitwise OR operation
-    result = num1 | num2;
+    result = a | b;
 
-    // Print the result
-    printf("  %d\n", num1, num2, result);
+    // Output the result
+    printf("The result of the bitwise OR operation is: %d\n", result);
 
     return 0;
 }
