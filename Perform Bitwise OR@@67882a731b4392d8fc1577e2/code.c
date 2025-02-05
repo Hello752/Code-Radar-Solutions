@@ -11,7 +11,7 @@ int main() {
     result = a | b;
 
     // Output the result
-    printf( result);
+    printf("The result of the bitwise OR operation is: %d\n", result);
 
     return 0;
 }
