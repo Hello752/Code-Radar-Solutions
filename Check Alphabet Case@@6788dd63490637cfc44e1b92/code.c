@@ -2,11 +2,9 @@
 
 int main() 
 {
-
     char c;
     
     // Prompt the user to enter a year
-    printf("Enter a year: ");
     scanf("%c", &ch);
     
     // Check if the year is a leap year
