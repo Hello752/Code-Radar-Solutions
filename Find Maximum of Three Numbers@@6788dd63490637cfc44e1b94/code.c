@@ -14,8 +14,7 @@ int main() {
     else if ((side3 > side2 || side 3> side2) ) {
         printf("%f",side3);
     }
-    else{
-        printf("Neither is greatest");
+   
     } 
     } 
     return 0;
