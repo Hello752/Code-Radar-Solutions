@@ -1,6 +1,8 @@
 #include <stdio.h>
 
-int main() {
+int main() 
+{
+
     char c;
     
     // Prompt the user to enter a year
@@ -10,13 +12,13 @@ int main() {
     // Check if the year is a leap year
     if(isupper(ch)){
         printf("Uppercase",ch);
+    }
     else if(islower(ch)){
         printf("Lowercase",ch);
+    }
     else{
         printf("Not an alphabet",ch);
     }
     
     return 0;
-}
-    }
 }
