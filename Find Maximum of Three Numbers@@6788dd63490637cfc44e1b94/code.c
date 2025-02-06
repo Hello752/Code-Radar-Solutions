@@ -11,7 +11,7 @@ int main() {
     } 
     else if ((side2 > side1 || side2> side3) ) {
         printf("%f",side2);
-    else  ((side3 > side2 || side3> side2) ) {
+    else if  ((side3 > side2 || side3> side2) ) {
         printf("%f",side3);
     }
    
