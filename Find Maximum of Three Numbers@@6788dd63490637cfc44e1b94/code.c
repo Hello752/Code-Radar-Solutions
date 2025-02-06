@@ -9,9 +9,9 @@ int main() {
     if ((side1 > side2 || side 1> side3) ) {
         printf("%f",side1);
     } 
-    else if ((side2 > side1 || side 2> side3) ) {
+    else if ((side2 > side1 || side2> side3) ) {
         printf("%f",side2);
-    else  ((side3 > side2 || side 3> side2) ) {
+    else  ((side3 > side2 || side3> side2) ) {
         printf("%f",side3);
     }
    
