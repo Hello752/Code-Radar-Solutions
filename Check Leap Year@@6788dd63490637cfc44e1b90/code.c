@@ -6,10 +6,10 @@ int main()
     if (num/2==0 ){
         printf("Leap year");
     }
-    else if(num/4==0){
+    if(num/4==0){
          printf("Leap year");
     }
-     else if(num/400==0){
+    if(num/400==0){
          printf("Leap year");
      }
     else{
