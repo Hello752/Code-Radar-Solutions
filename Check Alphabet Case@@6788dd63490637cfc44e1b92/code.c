@@ -2,7 +2,7 @@
 
 int main() 
 {
-    char c;
+    char ch;
     
     // Prompt the user to enter a year
     scanf("%c", &ch);
@@ -14,7 +14,9 @@ int main()
     else (islower(ch)){
         printf("Lowercase",ch);
     }
-    
+    else{
+        printf("Not an alphabet",ch);
+    }
     return 0;
     
 
