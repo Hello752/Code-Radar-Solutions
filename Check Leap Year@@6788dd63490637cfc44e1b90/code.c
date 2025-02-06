@@ -3,16 +3,16 @@ int main()
 {
     int num;
     scanf("%d",&num);
-    if (num/2==0 ){
+    do (num/2==0 ){
         printf("Leap year");
     }
-    if(num/4==0){
+     while(num/4==0){
          printf("Leap year");
     }
-    if(num/400==0){
+       do(num/400==0){
          printf("Leap year");
      }
-    else{
+         while{
         printf("Not a Leap year");
     }
 }
