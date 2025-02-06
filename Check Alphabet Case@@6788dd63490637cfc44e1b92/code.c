@@ -11,7 +11,7 @@ int main()
     if(isupper(ch)){
         printf("Uppercase",ch);
     }
-    else (islower(ch)){
+    else if (islower(ch)){
         printf("Lowercase",ch);
     }
     else{
