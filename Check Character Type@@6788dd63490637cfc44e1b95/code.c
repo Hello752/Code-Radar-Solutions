@@ -13,6 +13,9 @@ int main() {
     else if (n >= '0' && n <= '9') {
         printf("Digit");
     }
+     else if ((n >= 'a' && n <= 'z') || (n >= 'A' && n <= 'Z')) {
+        printf("Consonant");
+     }
     // If not vowel or digit, it's a special character
     else {
         printf("Special Character");
