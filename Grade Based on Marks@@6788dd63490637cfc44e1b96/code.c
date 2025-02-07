@@ -18,4 +18,7 @@ int main()
     else if(m<60){
         printf("F");
     }
+    else{
+        printf("Invalid")
+    }
 }
