@@ -7,10 +7,10 @@ int main()
     ||n==u){
         printf("Vowel");
     }
-     else if(n==int ){
+    else if(n==int ){
      printf("Digit");
      }
-     else{
+    else{
         printf("Special character");
      }
 }
