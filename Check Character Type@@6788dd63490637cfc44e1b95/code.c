@@ -1,17 +1,22 @@
 #include <stdio.h>
-int main()
-int char()
-{
+
+int main() {
     char n;
-    scanf("%c",&n);
-    if(n==a||n==e||n==i||n==o
-    ||n==u){
+    scanf("%c", &n);
+
+    // Check if n is a vowel
+    if (n == 'a' || n == 'e' || n == 'i' || n == 'o' || n == 'u' ||
+        n == 'A' || n == 'E' || n == 'I' || n == 'O' || n == 'U') {
         printf("Vowel");
     }
-    else if(n==int ){
-     printf("Digit");
-     }
-    else{
+    // Check if n is a digit
+    else if (n >= '0' && n <= '9') {
+        printf("Digit");
+    }
+    // If not vowel or digit, it's a special character
+    else {
         printf("Special character");
-     }
+    }
+
+    return 0;
 }
