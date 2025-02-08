@@ -9,7 +9,7 @@ int main()
     for (int i = 0; i < n; i++) {
 
         // first inner loop to print the * in each row
-        for (int j = n; j > 0; j--) {
+        for (int j = n - i; j > 0; j--) {
             printf("* ");
         }
         printf("\n");
