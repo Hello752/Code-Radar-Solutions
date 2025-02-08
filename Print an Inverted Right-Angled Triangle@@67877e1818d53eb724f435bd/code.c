@@ -6,10 +6,10 @@ int main()
 {
 
     // first loop to print all rows
-    for (int i = 0; i < n; i++) {
+    for (int i = 0; i < N; i++) {
 
         // first inner loop to print the * in each row
-        for (int j = n - i; j > 0; j--) {
+        for (int j = N - i; j > 0; j--) {
             printf("* ");
         }
         printf("\n");
