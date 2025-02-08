@@ -4,13 +4,12 @@
 
 int main()
 {
-    int rows=1 ;
 
     // first loop to print all rows
-    for (int i = 0; i < rows; i++) {
+    for (int i = 0; i < n; i++) {
 
         // first inner loop to print the * in each row
-        for (int j = 0; j < rows - i; j++) {
+        for (int j = n; j > 0; j--) {
             printf("* ");
         }
         printf("\n");
