@@ -5,6 +5,8 @@
 int main()
 {
 
+    int N;
+    scanf("%d",&N);
     // first loop to print all rows
     for (int i = 0; i < N; i++) {
 
