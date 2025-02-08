@@ -4,7 +4,7 @@
 
 int main()
 {
-    int rows ;
+    int rows=0 ;
 
     // first loop to print all rows
     for (int i = 0; i < rows; i++) {
