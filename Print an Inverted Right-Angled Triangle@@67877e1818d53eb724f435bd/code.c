@@ -1,28 +1,18 @@
-/**
- * Reverse right triangle star pattern program in C
- */
-
+// C program to print the inverted right half pyramid of
+// stars
 #include <stdio.h>
 
 int main()
 {
-    int i, j, rows;
+    int rows = 5;
 
-    /* Input number of rows from user */
-    scanf("%d", &rows);
+    // first loop to print all rows
+    for (int i = 0; i < rows; i++) {
 
-    /* Iterate through rows */
-    for(i=1; i<=rows; i++)
-    {
-        /* Iterate through columns */
-        for(j=i; j<=rows; j++)
-        {
-            printf("*");
+        // first inner loop to print the * in each row
+        for (int j = 0; j < rows - i; j++) {
+            printf("* ");
         }
-       
-        /* Move to the next line */
         printf("\n");
     }
-
-    return 0;
 }
