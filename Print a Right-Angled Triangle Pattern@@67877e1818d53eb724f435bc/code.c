@@ -4,7 +4,7 @@ int main() {
     int N, i, j;
 
     // Input: Number of rows
-    printf("Enter the number of rows: ");
+    printf(" ");
     scanf("%d", &N);
 
     // Output: Right-angled triangle of stars
