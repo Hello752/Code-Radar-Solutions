@@ -1,20 +1,19 @@
 #include <stdio.h>
- 
-int main() {
 
-	// Declare Variables
-    int rows,i,j;
-    
-    //Read Day Value
-    scanf("%d",&rows);
-     
-    //Print Left Triangle Pattern
-    for (i = 1; i <= rows; i++){
-            for (j = 2; j <= i; j++){
-                printf("*");
-            }
-      printf("\n");
-     }
-   
-	return 0;
+int main() {
+    int N, i, j;
+
+    // Input: Number of rows
+    printf("Enter the number of rows: ");
+    scanf("%d", &N);
+
+    // Output: Right-angled triangle of stars
+    for (i = 1; i <= N; i++) {
+        for (j = 1; j <= i; j++) {
+            printf("* ");
+        }
+        printf("\n");
+    }
+
+    return 0;
 }
