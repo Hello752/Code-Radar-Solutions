@@ -7,7 +7,7 @@ int main()
   printf(" ");
   scanf("%d", &Rows);
 	
-  printf("\nPrinting Right Angled Triangle \n \n");
+  printf("");
   for ( i = 1 ; i <= Rows; i++ ) 
   {
       for ( j = 1 ; j <= i; j++ ) 
