@@ -1,21 +1,21 @@
-// C program to print the inverted right half pyramid of
-// stars
 #include <stdio.h>
+ 
+int main() {
 
-int main()
-{
-
-    int N;
-    scanf("%d",&N);
-    // first loop to print all rows
-    for (int i = 0; i < N; i++) {
-
-        // first inner loop to print the * in each row
-        for (int j = N - i; j > 0; j--) {
-            printf("* ");
-        }
-        printf("\n");
-    }
-
-   return 0; 
+	// Declare Variables
+    int rows,i,j;
+    
+    //Read Day Value
+    printf("Enter the number of rows : ");
+    scanf("%d",&rows);
+     
+    //Print Left Triangle Pattern
+    for (i = 1; i <= rows; i++){
+            for (j = 1; j <= i; j++){
+                printf("*");
+            }
+      printf("\n");
+     }
+   
+	return 0;
 }
