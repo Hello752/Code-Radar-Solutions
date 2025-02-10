@@ -7,7 +7,7 @@ int main()
   printf(" ");
   scanf("%d", &Rows);
 	
-  printf("");
+  printf(" ");
   for ( i = 1 ; i <= Rows; i++ ) 
   {
       for ( j = 1 ; j <= i; j++ ) 
