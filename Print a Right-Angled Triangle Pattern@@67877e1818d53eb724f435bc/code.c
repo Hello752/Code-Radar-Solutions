@@ -6,7 +6,6 @@ int main() {
     int rows,i,j;
     
     //Read Day Value
-    printf("Enter the number of rows : ");
     scanf("%d",&rows);
      
     //Print Left Triangle Pattern
