@@ -4,7 +4,7 @@ int main()
 {
   int Rows, i, j;
 	
-  printf("Please Enter the Number of Rows:  ");
+  printf(" ");
   scanf("%d", &Rows);
 	
   printf("\nPrinting Right Angled Triangle \n \n");
