@@ -1,20 +1,19 @@
 #include <stdio.h>
- 
-int main() 
-{
-  int Rows, i, j;
-	
-  printf(" ");
-  scanf("%d", &Rows);
-	
-  printf(" ");
-  for ( i = 1 ; i <= Rows; i++ ) 
-  {
-      for ( j = 1 ; j <= i; j++ ) 
-      {
-          printf("* ");
-      }
-      printf("\n");
-  }
-  return 0;
+
+int main() {
+    int N, i, j;
+
+    // Input: Number of rows
+    
+    scanf("%d", &N);
+
+    // Output: Right-angled triangle of stars
+    for (i = 1; i <= N; i++) {
+        for (j = 1; j <= i; j++) {
+            printf("* ");
+        }
+        printf("\n");
+    }
+
+    return 0;
 }
