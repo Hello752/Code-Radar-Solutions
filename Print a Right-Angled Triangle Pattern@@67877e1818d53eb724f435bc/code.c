@@ -1,19 +1,18 @@
-#include <stdio.h>
+// C++ program to print
+// right triangle
+#include <iostream>
+using namespace std;
 
-int main() {
-    int N, i, j;
+// Driver code
+int main()
+{
+	int n = 5;
 
-    // Input: Number of rows
-    printf(" ");
-    scanf("%d", &N);
-
-    // Output: Right-angled triangle of stars
-    for (i = 1; i <= N; i++) {
-        for (j = 1; j <= i; j++) {
-            printf("* ");
-        }
-        printf("\n");
-    }
-
-    return 0;
+	// ith row has i elements
+	for (int i = 1; i <= n; i++) {
+		for (int j = 1; j <= i; j++)
+			cout << "* ";
+		cout << endl;
+	}
+	return 0;
 }
