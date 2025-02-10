@@ -1,18 +1,20 @@
-// C++ program to print
-// right triangle
-#include <iostream>
-using namespace std;
-
-// Driver code
-int main()
+#include <stdio.h>
+ 
+int main() 
 {
-	int n = 5;
-
-	// ith row has i elements
-	for (int i = 1; i <= n; i++) {
-		for (int j = 1; j <= i; j++)
-			cout << "* ";
-		cout << endl;
-	}
-	return 0;
+  int Rows, i, j;
+	
+  printf("Please Enter the Number of Rows:  ");
+  scanf("%d", &Rows);
+	
+  printf("\nPrinting Right Angled Triangle \n \n");
+  for ( i = 1 ; i <= Rows; i++ ) 
+  {
+      for ( j = 1 ; j <= i; j++ ) 
+      {
+          printf("* ");
+      }
+      printf("\n");
+  }
+  return 0;
 }
