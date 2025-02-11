@@ -13,6 +13,8 @@ for( i=2 ; i<=n/2; ++1){
 
 }
 if(flag==0){ printf("Prime number");
-}else printf{"Not Prime"};
+}else 
+{printf("Not Prime");
+}
 return 0;
 }
