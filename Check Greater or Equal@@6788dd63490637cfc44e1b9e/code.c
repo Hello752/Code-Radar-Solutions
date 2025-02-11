@@ -6,7 +6,7 @@ int main(){
     else if("n==a ||a ==n"){
         printf("Yes");
     else{
-        printf("No")
+        printf("No");
     }
     }
 }
