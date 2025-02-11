@@ -2,10 +2,8 @@
 int main(){
     int n,a;
     scanf("%d %d",&n,&a);
-    if (n>a  ){printf("Yes");}
-    else if("n==a && a ==n"){
-        printf("Yes");
-    }
+    if (n>=a  ){printf("Yes");}
+    
     else{
         printf("No");
     }
