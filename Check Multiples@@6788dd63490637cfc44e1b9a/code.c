@@ -1,12 +1,9 @@
 #include <stdio.h>
-int maiin(){
-    int n ,a ;
-    scanf("%d,&n");
-    printf("")
-    if (n/a==0){
-        printf("Yes");
-    else{
-        printf("No");
-    }
-    }
+int main (){
+    int number,anumber;
+    scanf("%d %d ",&number,&number);
+    if(number%anumber==0){printf("Yes");}
+    else(printf("No");)
+    return 0;
+
 }
