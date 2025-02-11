@@ -6,8 +6,8 @@ int main()
     for(i=1; i<=rows;++i,k=o){
         for (space =1; space<=rows -1;
         ++space){
-            printf("");
-            ++k;
+            printf(" ");
+         
             printf("\n");
             return 0;
         }
