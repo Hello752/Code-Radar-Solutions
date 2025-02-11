@@ -5,8 +5,7 @@ int main(){
     if (n>a||a>n){printf("Yes");}
     else if("n==a ||a ==n"){
         printf("Yes");
-    else{
+    }else{
         printf("No");
     }
     }
-}
