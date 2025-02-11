@@ -6,7 +6,7 @@ int main(){
     else if(if n==a){
         printf("Equal");
     }
-    else  if (a>n ){printf("Second");}
+    else if (a>n ){printf("Second");}
     
     else{
         printf("No");
