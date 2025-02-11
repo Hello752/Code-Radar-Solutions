@@ -3,9 +3,9 @@ int maiin(){
     int n ,a ;
     scanf("%d,&n");
     if (n/a==0){
-        printf("Yes")
+        printf("Yes");
     else{
-        printf("No")
+        printf("No");
     }
     }
 }
