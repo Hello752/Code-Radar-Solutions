@@ -4,12 +4,12 @@
 int main() {
     int n, i, flag = 0;
     
-    
+    printf("Enter a positive integer: ");
     scanf("%d", &n);
 
     // Handling edge cases
     if (n <= 1) {
-       
+        printf("Not Prime\n");
         return 0;
     }
 
