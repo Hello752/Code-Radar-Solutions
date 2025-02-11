@@ -9,7 +9,7 @@ int main() {
 
     // Handling edge cases
     if (n <= 1) {
-        printf("Not Prime\n");
+        printf("Not Prime");
         return 0;
     }
 
