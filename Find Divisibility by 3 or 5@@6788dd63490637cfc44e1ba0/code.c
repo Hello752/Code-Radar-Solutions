@@ -12,6 +12,6 @@ else if(n%3==0 ){
     printf("divisible by 5");
   }
 else{
-    printf("not divisible");
+    printf("Not Divisible");
 }
 }
