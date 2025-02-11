@@ -12,7 +12,7 @@ for( i=2 ; i<=n/2; ++1){
     break;
 
 }
-if(flag==0){ printf("Prime number");
+if(flag==0){ printf("Prime");
 }else 
 {printf("Not Prime");
 }
