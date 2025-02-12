@@ -2,7 +2,7 @@
 int main()
 {
     int cprice,sprice,pfit;
-    scanf("%d %d %d",&cpriice,&sprice.&pfit);
+    scanf("%d %d %d",&cpriice,&sprice,&pfit);
     if (cprice>sprice){
     printf("Profit");}
     else if(cprice=sprice){
