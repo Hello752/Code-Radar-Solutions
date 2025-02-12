@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main()
 {
-    int cprice,sprice,pfit;
-    scanf("%d %d %d",&cpriice,&sprice,&pfit);
+    int cprice,sprice,profit;
+    scanf("%d %d %d",&cpriice,&sprice,&profit);
     if (sprice>cprice){
     printf("Profit");}
     else if(cprice=sprice){
