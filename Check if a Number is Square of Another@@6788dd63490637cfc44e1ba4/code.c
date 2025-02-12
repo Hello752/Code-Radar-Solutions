@@ -7,6 +7,6 @@ if(n==a**2){
 
 }
 else{
-    printf("No")
+    printf("No");
 }    
 }
