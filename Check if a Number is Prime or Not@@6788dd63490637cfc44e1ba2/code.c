@@ -8,15 +8,16 @@ int main(){
     printf("Not Prime");
     break;
    } 
-   else{
-    printf("Prime");
-   break;}
-   
    }
    if(n==1){
     printf("Not prime");
    }
-   
+   else if(a==0){
+    printf("Prime");
+   }
+   else{
+    printf("Not Prime");
+   }
 
 }
 
