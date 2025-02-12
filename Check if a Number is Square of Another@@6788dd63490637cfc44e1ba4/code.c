@@ -2,7 +2,7 @@
 int main(){
     int n,a;
 scanf("%d %d ",&n ,&a);
-if(n==a**2){
+if(n==a*a){
     printf("Yes");
 
 }
