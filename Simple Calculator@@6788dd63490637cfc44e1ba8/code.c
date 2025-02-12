@@ -5,7 +5,7 @@ int main(){
     if (operator==+){
     printf("n"op"a");}
     elseif(operator==-){
-        printf("n"op"a")
+        printf("n"op"a");
     }
     return 0;
 
