@@ -1,11 +1,11 @@
 #include<stdio.h>
 int main(){
-    int n,a,operator;
-    scanf("%d %d",&n,&a,&operator);
+    int n,a,op;
+    scanf("%d %d",&n,&a,&op);
     if (operator==+){
-    printf("n"operator"a");}
+    printf("n"op"a");}
     elseif(operator==-){
-        printf("n"operator"a")
+        printf("n"op"a")
     }
     return 0;
 
