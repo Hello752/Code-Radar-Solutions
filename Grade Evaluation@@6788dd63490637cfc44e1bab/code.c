@@ -8,4 +8,5 @@ int main(){
       else if(n==D){printf("Below Average");}
        else if(n==E){printf("Fail");}
        else{printf("Invalid grade");}
+       return 0;
 }
