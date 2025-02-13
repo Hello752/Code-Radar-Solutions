@@ -7,5 +7,5 @@ int main(){
      else if(n==C){printf("Average");}
       else if(n==D){printf("Below Average");}
        else if(n==E){printf("Fail");}
-       else{printf("Invalid grade")}
+       else{printf("Invalid grade");}
 }
