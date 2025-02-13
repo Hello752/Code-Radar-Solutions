@@ -1,12 +1,13 @@
 #include<stdio.h>
 int main(){
-    int n,a,op;
-    scanf("%d %d",&n,&a,&op);
-    if (operator=='+'){
-    printf("n"'+''"a");}
-    elseif(operator==-){
-        printf("n"op"a");
-    }
+    int n,a;
+    char op;
+    scanf("%d %d %c",&n,&a,&op);
+   if(op=='+'){
+    int sum;
+    sum=a + n;
+    printf("%d",sum );}
     return 0;
+
 
 }
