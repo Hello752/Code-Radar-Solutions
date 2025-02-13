@@ -2,7 +2,7 @@
 int main(){
     int a,n;
     char op;
-    scanf("%d %d %c",&n,&a,&op);
+    scanf("%d %d %c",&a,&n,&op);
    if(op=='+'){
     int sum;
     sum=a + n;
