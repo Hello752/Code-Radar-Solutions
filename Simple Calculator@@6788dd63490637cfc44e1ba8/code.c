@@ -2,8 +2,8 @@
 int main(){
     int n,a,op;
     scanf("%d %d",&n,&a,&op);
-    if (operator==+){
-    printf("n"op"a");}
+    if (operator=='+'){
+    printf("n"'+''"a");}
     elseif(operator==-){
         printf("n"op"a");
     }
