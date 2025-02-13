@@ -1,7 +1,7 @@
 #incluude<stdio.h>
 int main(){
-    int a,b,c;
-    if ('a'='b' && 'b='c' && 'a'='c'){printf("Equilateral")} ;
-    else if('a'='b' &&'a'='c' &&'b'='c'){printf("Isoceles");}
+    int side1,side2,side3;
+    if (side1==side2 && side2==side3 && side1==side3){printf("Equilateral")} ;
+    else if(side1==side2 || side2==side3 ||side1==side3){printf("Isoceles");}
     else{printf("Scalene");}
 }
