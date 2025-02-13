@@ -7,6 +7,12 @@ int main(){
     int sum;
     sum=a + n;
     printf("%d",sum );}
+    else if(op=='-'){
+        int sub;
+        sub= a-n;
+        printf("%d",sub);
+        
+    }
     return 0;
 
 
