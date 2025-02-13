@@ -15,11 +15,11 @@ int main(){
         int mul;
         mul= a*n;
         printf("%d",mul);}
-     else if(op=='/'){
-        if(n=='0'){printf("error");}
-         else{  int div;
-            div= a/n;
-        printf("%d",div);}
+    //  else if(op=='/'){
+        // if(n=='0'){printf("error");}
+        //  else{  int div;
+        //     div= a/n;
+        // printf("%d",div);}
     return 0;
 
 
