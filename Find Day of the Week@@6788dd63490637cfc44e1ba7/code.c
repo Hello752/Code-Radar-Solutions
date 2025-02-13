@@ -6,6 +6,6 @@ int main()
 if (n==1){printf("Monday");}
 else if( n==2){printf("Tuesday");}
 else if(n==3){printf("Sunday");}
-else{printf("Invalid")}
+else{printf("Invalid");}
  }
  
