@@ -16,10 +16,10 @@ int main(){
         mul= a*n;
         printf("%d",mul);}
      else if(op=='/'){
-        if(n=='0'){printf("error");}}
+        if(n=='0'){printf("error");}
          else{  int div;
             div= a/n;
-        printf("%d",div);}
+        printf("%d",div);}}
     return 0;
 
 
