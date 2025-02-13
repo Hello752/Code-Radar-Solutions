@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main(){
-    int age;
-    scanf("%d",&age);
-    if(age>=18){
+    int age,c;
+    scanf("%d",&age,&c);
+    if(age>=18 &&c=1){
         printf("Eligible");
     }
     else{
