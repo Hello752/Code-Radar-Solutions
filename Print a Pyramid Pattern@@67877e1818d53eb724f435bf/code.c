@@ -1,14 +1,12 @@
-#include<stdio.h>
-int main()
-{
-    int i, space, rows,k=0;
-    scanf("%d %d %d %d",&i,&space,&rows,&k);
-    for(i=1; i<=rows;++i,k=o){
-        for (space =1; space<=rows -1;
-        ++space){
-    
-            return 0;
-        }
-    }
-      
+#include <stdio.h>
+int main() {
+   int i, j, rows;
+   scanf("%d", &rows);
+   for (i = 1; i <= rows; ++i) {
+      for (j = 1; j <= i; ++j) {
+         printf("* ");
+      }
+      printf("\n");
+   }
+   return 0;
 }
