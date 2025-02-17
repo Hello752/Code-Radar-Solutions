@@ -5,7 +5,7 @@ int main(){
     scanf("%d",&num);
     for (int divisor =2 ; divisor< num ; divisor = divisor+1){
         if (num% divisor ==0){
-        extra_factor = extra_facor +1;
+        extra_factor = extra_factor +1;
         break;
     }
     }
