@@ -7,12 +7,13 @@
 int main()
 {
     int num;
+       int mask=1;
 
 
     /* Input number from user */
     
     scanf("%d", &num);
-    int mask=1;
+   
 
     /* If (num & 1) evaluates to 1 */
     if(num & mask){
