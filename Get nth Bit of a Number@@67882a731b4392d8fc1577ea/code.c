@@ -11,7 +11,7 @@ int main() {
     if (num & (1 << n)) {
         printf("%d", 1);
     } else {
-        printf(" %d", 0);
+        printf("%d", 0);
     }
 
     return 0;
