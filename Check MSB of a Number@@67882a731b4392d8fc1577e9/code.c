@@ -5,8 +5,7 @@ int main() {
     scanf("%d", &num);
 
     // Calculate the MSB mask for 32-bit integer
-    int msb_mask = (int) pow(2.0,31.0);
-    
+    int msb_mask = 1 << 31;
 
     if (num & msb_mask) {
         printf("Set");
