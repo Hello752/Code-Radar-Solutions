@@ -19,7 +19,7 @@ int main(){
         if(n==0){printf("Error");}
         else{int div;
         div =a/n;
-        printf("&d",div);}
+        printf("%d",div);}
     }
     return 0;
 }  
