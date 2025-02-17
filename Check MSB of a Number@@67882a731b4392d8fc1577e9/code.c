@@ -13,7 +13,7 @@ int main() {
     //     printf("Not Set");
     // }
     if (num<0){
-        printf("Set")
+        printf("Set");
     }
 
     return 0;
