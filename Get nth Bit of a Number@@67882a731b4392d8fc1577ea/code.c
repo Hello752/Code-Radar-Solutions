@@ -4,14 +4,14 @@ int main() {
     int num, n;
 
     // Input the number and the bit position
-    scanf("%d", &num);
-    scanf("%d", &n);
+    scanf("%d %d", &num,&n);
+    
 
     // Check if the nth bit is set or not
     if (num & (1 << n)) {
-        printf("%d", n);
+        printf("%d", 1);
     } else {
-        printf(" %d", n);
+        printf(" %d", 0);
     }
 
     return 0;
