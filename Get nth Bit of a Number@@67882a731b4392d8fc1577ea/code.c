@@ -8,7 +8,7 @@ int main() {
     scanf("%d", &n);
 
     // Check if the nth bit is set or not
-    if (num & (1 << n)) {
+    if (num && (1 << n)) {
         printf("%d", n);
     } else {
         printf(" %d", n);
