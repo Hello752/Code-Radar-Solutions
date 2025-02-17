@@ -5,9 +5,9 @@ int main() {
     scanf("%d", &num);
 
     // Calculate the MSB mask for 32-bit integer
-      int msb_mask = 1 <<31;        //1000000000000000000000000000
+      int mask = 1 <<31;        //1000000000000000000000000000
 
-    if (num & msb_mask) {
+    if (num & mask) {
         printf("Set");
     } else {
         printf("Not Set");
