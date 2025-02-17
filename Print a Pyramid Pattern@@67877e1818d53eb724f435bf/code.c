@@ -12,6 +12,7 @@
    for(int row = 0; row < rows; row++){
      stars = (row * 2) + 1;
      spaces = (max_stars - stars) / 2;
+     printf("")
      
      for(int space = 0; space < spaces; space++){
        printf(" ");
