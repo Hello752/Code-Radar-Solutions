@@ -16,7 +16,7 @@ int main(){
         printf("%d",mul);
     }
     else if(op=='/'){
-        if(n==0){printf("Error");}
+        if(n==0){printf("error");}
         else{int div;
         div =a/n;
         printf("%d",div);}
