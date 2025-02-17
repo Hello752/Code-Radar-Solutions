@@ -1,10 +1,11 @@
 #include<stdio.h>
 int main(){
-    int a,n,op;
-    scanf("%d %d %d",&a,&n,&op);
+    int a,n;
+    char op;
+    scanf("%d %d %c",&a,&n,&op);
     if (op=='+'){
         int sum;
-        sum=a + n;
+        sum= a + n;
         printf("%d",sum);}
     else if(op=='-'){int sub;
     sub=a-n;
