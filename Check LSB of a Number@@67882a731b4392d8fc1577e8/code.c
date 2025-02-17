@@ -14,9 +14,9 @@ int main()
 
     /* If (num & 1) evaluates to 1 */
     if(num & 1)
-        printf("LSB of %d is set (1).", num);
+        printf("Set");
     else
-        printf("LSB of %d is unset (0).", num);
+        printf("Not Set");
 
     return 0;
 }
