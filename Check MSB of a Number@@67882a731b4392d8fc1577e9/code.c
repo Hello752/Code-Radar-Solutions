@@ -15,6 +15,9 @@ int main() {
     if (num<0){
         printf("Set");
     }
+    else{
+        printf("Not Set")
+    }
 
     return 0;
 }
