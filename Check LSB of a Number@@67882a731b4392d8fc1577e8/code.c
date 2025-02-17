@@ -13,10 +13,10 @@ int main()
     scanf("%d", &num);
 
     /* If (num & 1) evaluates to 1 */
-    if(num & 1 == 1)
-        printf("Set");
-    else
+    if(num & 1){
+        printf("Set");}
+    else{
         printf("Not Set");
-
+    }
     return 0;
 }
