@@ -1,23 +1,18 @@
 #include<stdio.h>
 int main(){
-   int n;
-   scanf("%d",&n);
-   int a = 0;
-   for(int i=2;i<=n-1;i++){
-    if(n%i==0){
-    a=1;
-    break;
-   } 
-   }
-   if(n==1){
-    printf("Not prime");
-   }
-   else if(a==0){
-    printf("Prime");
-   }
-   else{
-    printf("Not Prime");
-   }
+    int num;
+    int extra_factor=0;
+    scanf("%d",&num);
+    for (int divisor =2 ; divisor< num ; divisor = divisor+1){
+        if (num% divisor ==0){
+        extra_factor= extra_facor +1;
+        break;
+    }
+    }
+if(extra_factor>0){printf("Not Prime");}
+else{printf("Prime");}
+
+ 
+
 
 }
-
