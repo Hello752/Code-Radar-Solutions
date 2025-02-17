@@ -10,7 +10,7 @@ int main(){
     else if(op=='-'){int sub;
     sub=a-n;
     printf("%d",&sub);}
-    else if(op=='-'){
+    else if(op=='*'){
         int mul;
         mul=a*n;
         printf("%d",mul);
