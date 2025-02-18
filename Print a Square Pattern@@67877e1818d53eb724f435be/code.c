@@ -2,11 +2,11 @@
 
 int main(){
 
-  int n;
-  scanf("%d", &n);
+  int N;
+  scanf("%d", &N);
 
-  for(int row = 0; row < n; row++){
-    for(int col = 0; col < n; col++){
+  for(int row = 0; row < N; row++){
+    for(int col = 0; col < N; col++){
       printf("*")
     }
 
