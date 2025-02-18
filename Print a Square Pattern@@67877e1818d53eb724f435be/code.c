@@ -10,7 +10,7 @@ int main()
 
     /* Input number of rows from user */
    
-    scanf("%d", &N);
+    scanf("%d %d %d", &i,&j,&N);
 
     /* Iterate through N rows */
     for(i=1; i<=N; i++)
