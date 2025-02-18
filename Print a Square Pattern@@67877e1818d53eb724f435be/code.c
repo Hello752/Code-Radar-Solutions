@@ -1,28 +1,16 @@
-/**
- * C program to print square star pattern
- */
-
 #include <stdio.h>
 
-int main()
-{
-    int i, j, N;
-
-    /* Input number of rows from user */
-   
+int main() {
+    int N;
     scanf("%d", &N);
 
-    /* Iterate through N rows */
-    for(i=1; i<=N; i++)
-    {
-        /* Iterate over columns */
-        for(j=1; j<=N; j++)
-        {
-            /* Print star for each column */
+    for (int i = 0; i < N; i++) {
+        for (int j = 0; j < N; j++) {
             printf("*");
+            if (j < N - 1) {
+                printf(" ");
+            }
         }
-        
-        /* Move to the next line/row */
         printf("\n");
     }
 
