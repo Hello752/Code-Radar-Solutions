@@ -14,6 +14,7 @@ int main(){
   while(quot != 0){
     rem = n % 2;
     quot = n / 2;
+     n = n / 2;
 
     binary_num = binary_num * 10 + rem;
   }
