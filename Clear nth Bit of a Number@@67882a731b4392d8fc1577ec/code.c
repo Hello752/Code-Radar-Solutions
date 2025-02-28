@@ -9,9 +9,8 @@ int main() {
     int num, n;
 
     // Taking input from user
-    printf("Enter a number: ");
+   
     scanf("%d", &num);
-    printf("Enter the bit position to clear (0-based index): ");
     scanf("%d", &n);
 
     // Checking if the bit position is valid
