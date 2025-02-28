@@ -20,7 +20,7 @@ int main() {
     }
 
     int result = clearNthBit(num, n);
-    printf("Number after clearing %dth bit: %d\n", n, result);
+    printf(" %d", n, result);
 
     return 0;
 }
