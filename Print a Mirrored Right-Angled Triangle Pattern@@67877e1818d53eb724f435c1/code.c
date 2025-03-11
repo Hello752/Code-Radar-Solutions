@@ -7,9 +7,9 @@ int main(){
         for(j=a-1;j>i;j--){
             printf(" ");
         }
-        // for(int z=1;z<=a;z++){
+        for(int z=1;z<=i;z++){
             printf("*");
-        // }
+        }
         printf("\n");
     }
 }
