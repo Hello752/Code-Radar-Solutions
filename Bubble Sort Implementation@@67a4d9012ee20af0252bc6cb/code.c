@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>  // For malloc and free
 
 void bubbleSort(int arr[], int n) {
     for (int i = 0; i < n - 1; i++) {
@@ -23,6 +24,23 @@ void printArray(int arr[], int n) {
 int main() {
     int n;
     scanf("%d", &n);
-    int arr[n];
+
+    // Allocate memory dynamically
+    int *arr = (int *)malloc(n * sizeof(int));
+    if (arr == NULL) {
+        printf("Memory allocation failed\n");
+        return 1;
+    }
+
     for (int i = 0; i < n; i++) {
-        scanf("%d
+        scanf("%d", &arr[i]);
+    }
+
+    bubbleSort(arr, n);
+    printArray(arr, n);
+
+    // Free allocated memory
+    free(arr);
+    
+    return 0;
+}
