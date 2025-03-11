@@ -9,6 +9,6 @@ int main(){
     for(z=1,z<=i,z++){
     printf("*");
 }
-printf("\n")
+printf("\n");
 }
 
