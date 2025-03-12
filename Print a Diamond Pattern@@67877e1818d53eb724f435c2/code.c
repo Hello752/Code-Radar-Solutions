@@ -26,7 +26,7 @@ void printDiamond(int N) {
 
 int main() {
     int N;
-    printf("Enter N: ");
+    printf(" ");
     scanf("%d", &N);
     printDiamond(N);
     return 0;
