@@ -1,4 +1,10 @@
 #include <stdio.h>
+int main() {
+    int N;
+    printf("Enter N: ");
+    scanf("%d", &N);
+    printDiamond(N);
+    return 0;
 
 void printDiamond(int N) {
     for(i=1;i<=N;i++){
@@ -19,12 +25,7 @@ void printDiamond(int N) {
         printf("\n");
     }
 }
-    int main() {
-    int N;
-    printf("Enter N: ");
-    scanf("%d", &N);
-    printDiamond(N);
-    return 0;
+    
 }
 
 
