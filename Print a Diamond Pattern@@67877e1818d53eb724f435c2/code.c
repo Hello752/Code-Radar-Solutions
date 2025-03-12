@@ -18,6 +18,13 @@ void printDiamond(int N) {
         }
         printf("\n");
     }
+    int main() {
+    int N;
+    printf("Enter N: ");
+    scanf("%d", &N);
+    printDiamond(N);
+    return 0;
+}
 }
 
 
