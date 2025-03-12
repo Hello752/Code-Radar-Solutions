@@ -26,7 +26,7 @@ void printDiamond(int N) {
     printDiamond(N);
     return 0;
 }
-}
+
 
 
     
