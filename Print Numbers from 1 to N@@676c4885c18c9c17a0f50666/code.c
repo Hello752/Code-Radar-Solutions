@@ -15,7 +15,7 @@ int main() {
         printf("%d ", i);  // Added space for better readability
     }
     
-    printf("\n"); // Newline for clean output
+    printf(" "); // Newline for clean output
     
     return 0;
 }
