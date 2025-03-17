@@ -9,7 +9,7 @@ int main(){
     int oddcount = 0;
     int evecount=0;
     for(int i=1;i<=n;i++){
-        if(i%2==0){
+        if(arr[i]%2==0){
             evecount++;
         }
         else{
