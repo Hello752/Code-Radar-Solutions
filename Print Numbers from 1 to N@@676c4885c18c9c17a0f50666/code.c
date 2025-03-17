@@ -2,7 +2,7 @@
 int main()
 {
     int i,n;
-    printf("" );
+    printf("");
     scanf("%d",&n);
     
     printf("Natural numbers from 1 to %d : \n", n);
