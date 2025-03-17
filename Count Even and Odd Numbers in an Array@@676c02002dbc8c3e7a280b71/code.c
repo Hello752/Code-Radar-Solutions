@@ -8,8 +8,10 @@ int main(){
     }
     int oddcount=0
     int evencount=0
+    for(int i=1;i<=n;i++){
+      
     if(arr[i]%2==0){evencount++};
     else{oddcount++};
-    printf("%d %d",oddcount,evencount);
+    printf("%d %d",oddcount,evencount);}
 
 }
