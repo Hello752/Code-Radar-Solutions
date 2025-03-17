@@ -4,7 +4,6 @@ int main() {
     int i, n;
     
     // Proper prompt for user input
-    printf(" ");
     scanf("%d", &n);
     
     // Displaying the value of 'n'
