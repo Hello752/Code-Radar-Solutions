@@ -13,5 +13,6 @@ int main(){
     if(arr[i]%2==0){evencount++};
     else{oddcount++};
     printf("%d %d",oddcount,evencount);}
+    return 0;
 
 }
