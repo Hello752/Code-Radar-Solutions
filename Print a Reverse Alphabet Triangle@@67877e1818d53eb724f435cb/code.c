@@ -1,13 +1,15 @@
-#include<stdio.h>
-int main(){
-    int n,col,count=1;
-   char N;
-   scanf("%d %c",&n,&N);
-   for(col=1;col<=N;col++){
-    for(N=1;N<=n;N++)
+#include <stdio.h>
+
+int main() {
+    int N;
+    scanf("%d", &N); // Read input
     
-    {printf("%d ",count++);}
-   
-    printf("\n");}
-   return 0;
+    for (int row = N; row >= 1; row--) { // Loop for rows in reverse order
+        for (char ch = 'A'; ch < 'A' + row; ch++) { // Print letters from 'A' to row-th letter
+            printf("%c ", ch);
+        }
+        printf("\n"); // Move to the next line
+    }
+    
+    return 0;
 }
