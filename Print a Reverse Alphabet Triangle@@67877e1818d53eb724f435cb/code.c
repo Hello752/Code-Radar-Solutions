@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(){
     int n;
-   char N,col,count++;
+   char N;col;count++;
    scanf("%d %c",&n,&N);
    for(col=1;col<=N;col++){
     for(N=1;N<=n;N++)
