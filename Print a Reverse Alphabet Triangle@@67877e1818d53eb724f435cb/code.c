@@ -1,15 +1,18 @@
 #include <stdio.h>
 
 int main() {
-    int N;
-    scanf("%d", &N); // Read input
-    
-    for (int row = N; row >= 1; row--) { // Loop for rows in reverse order
-        for (char ch = 'A'; ch < 'A' + row; ch++) { // Print letters from 'A' to row-th letter
-            printf("%c ", ch);
-        }
-        printf("\n"); // Move to the next line
+int n;
+scanf("%d",&n);
+for(int i=n;i>=1;i--){
+    int a = 1;
+    for(int j=1;j<=i;j++){
+        int d = a + 64;
+        char ch = (char)d;
+        printf("%c",ch);
+        a++;
     }
+    printf("\n");
+}
     
     return 0;
 }
