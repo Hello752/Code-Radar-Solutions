@@ -1,12 +1,12 @@
 #include <stdio.h>
 
-void printPalindromicTriangle(int N) {
-    for (int i = 1; i <= N; i++) {
-        // Print increasing sequence
+void printPalindromeTriangle(int n) {
+    for (int i = 1; i <= n; i++) {
+        // Print increasing numbers
         for (int j = 1; j <= i; j++) {
             printf("%d", j);
         }
-        // Print decreasing sequence
+        // Print decreasing numbers
         for (int j = i - 1; j >= 1; j--) {
             printf("%d", j);
         }
@@ -15,8 +15,8 @@ void printPalindromicTriangle(int N) {
 }
 
 int main() {
-    int N;
-    scanf("%d", &N);
-    printPalindromicTriangle(N);
+    int n;
+    scanf("%d", &n);
+    printPalindromeTriangle(n);
     return 0;
 }
