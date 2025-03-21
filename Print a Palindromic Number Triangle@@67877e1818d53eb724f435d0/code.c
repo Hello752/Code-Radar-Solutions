@@ -15,7 +15,7 @@ int main() {
         }
 
         // Inner loop for printing descending numbers
-        for (j = i - 1; j >= 1; j--) {
+        for (j = i - 1; j >= 1; j++) {
             printf("%d", j);
         }
 
