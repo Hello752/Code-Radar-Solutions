@@ -19,7 +19,7 @@ int main() {
             printf(" %d", j);
         }
 
-        printf(" \n"); // Move to the next line after each row
+        printf("\n"); // Move to the next line after each row
     }
 
     return 0;
