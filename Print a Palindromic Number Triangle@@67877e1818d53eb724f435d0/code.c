@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    int row,i,j,space;
+    int rows,i,j,space;
     scanf("5d",&rows);
     for(i=1;i<=rows;i++)
     {for(space=1;space<=rows-1;space++){printf(" ");}}
