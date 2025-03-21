@@ -5,13 +5,13 @@ int main() {
 
     // Get the number of rows from the user
    
-    scanf(" %d", &rows);
+    scanf("%d", &rows);
 
     // Outer loop for rows
     for (i = 1; i <= rows; i++) {
         // Inner loop for printing ascending numbers
         for (j = 1; j <= i; j++) {
-            printf("%d", j);
+            printf(" %d", j);
         }
 
         // Inner loop for printing descending numbers
