@@ -1,30 +1,11 @@
-#include <stdio.h>
-
-int main() {
-    int rows, i, j, space;
-
-    // Get the number of rows from the user
-    scanf("%d", &rows);
-
-    // Outer loop for rows
-    for (i = 1; i <= rows; i++) {
-        // Print leading spaces for center alignment
-        for (space = 1; space <= rows - i; space++) {
-            printf(" ");
-        }
-
-        // Inner loop for printing ascending numbers
-        for (j = 1; j <= i; j++) {
-            printf("%d", j);
-        }
-
-        // Inner loop for printing descending numbers
-        for (j = i - 1; j >= 1; j--) {
-            printf("%d", j);
-        }
-
-        printf("\n"); // Move to the next line after each row
-    }
-
-    return 0;
+#include<stdio.h>
+int main(){
+    int row,i,j,space;
+    scanf("5d",&rows);
+    for(i=1;i<=rows;i++)
+    {for(space=1;space<=rows-1;space++){printf(" ");}}
+    for(j=1;j<=i;j++){printf("%d",j);}
+    for(j=i-1;j>=1;j--){printf("%d,j");}
+printf("\n");
+return 0;
 }
