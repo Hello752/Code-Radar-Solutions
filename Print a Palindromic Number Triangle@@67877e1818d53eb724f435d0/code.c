@@ -4,7 +4,7 @@ int main() {
     int rows, i, j;
 
     // Get the number of rows from the user
-    printf("");
+    printf(" ");
     scanf("%d", &rows);
 
     // Outer loop for rows
