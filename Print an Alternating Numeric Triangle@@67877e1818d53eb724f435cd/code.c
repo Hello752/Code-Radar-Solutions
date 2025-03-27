@@ -1,13 +1,18 @@
 #include<stdio.h>
 int main(){
-    int i,j,n;
+    int n;
     scanf("%d",&n);
-    for(i=1;i<=n;i++){
-        for(j=1;j<=i;j++){if ((i+j)%2==0){printf("1 ");}
-        else{printf("0 ");}}
-         printf("\n");
-    
+    int rowstart;
+    for(int i=0;i<n;i++){
+        if(i%2 ==0) rowstart =1;
+        else rowstart =0;
+        for(int j=0;j<=i;j++){
+            printf("%d",rowstart);
+            rowstart=(rowstart+1)%2;
+        }
+        printf("\n");
+        }
+
     }
-    
-    }
+
 
