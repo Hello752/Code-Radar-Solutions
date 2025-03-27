@@ -7,7 +7,7 @@ int main(){
         if(i%2 ==0) rowstart =1;
         else rowstart =0;
         for(int j=0;j<=i;j++){
-            printf("%d",rowstart);
+            printf("%d ",rowstart);
             rowstart=(rowstart+1)%2;
         }
         printf("\n");
