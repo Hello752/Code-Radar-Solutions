@@ -1,6 +1,7 @@
 #include <stdio.h>
-#include <stdlib.h>  // For malloc and free
-
+#include <stdlib.h> 
+ // For malloc and free
+int main(){
 // Function to perform Bubble Sort
 void bubbleSort(int arr[], int n) {
     for (int i = 0; i < n - 1; i++) {
@@ -14,7 +15,7 @@ void bubbleSort(int arr[], int n) {
         }
     }
 }
-
+}
 // Function to print array elements
 void printArray(int arr[], int n) {
     for (int i = 0; i < n; i++) {  // FIXED LOOP CONDITION
