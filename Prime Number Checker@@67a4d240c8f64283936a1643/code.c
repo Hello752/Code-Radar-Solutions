@@ -1,5 +1,11 @@
 #include<stdio.h>
 
+int main(){
+    int num ;
+    scanf("%d",&num);
+    printf("%d", isprime(num));
+}
+
 int isprime( int num){
     int factors = 0;
     for(int i = 2; i < num ; i++){
@@ -14,10 +20,4 @@ int isprime( int num){
     else{
         return 1;
     }
-}
-
-int main(){
-    int num ;
-    scanf("%d",&num);
-    printf("%d", isprime(num));
 }
