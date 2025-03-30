@@ -1,27 +1,17 @@
-#include <stdio.h>
-
-int main() {
-    int rows, i, j, space;
-    scanf("%d", &rows);
-
-    for (i = 1; i <= rows; i++) {
-        // Print leading spaces for center alignment
-        for (space = 1; space <= rows - i; space++) {
-            printf(" ");
+#include<stdio.h>
+int main(){
+    int n;
+    scanf("%d",&n);
+    int j;
+    for(int i = 1; i <= n; i++){
+        for(int space = 1; space <= n - i; space++){printf(" ");}
+        for(j = 1; j <= i; j++){
+            printf("%d", j);
         }
-
-        // Print ascending numbers
-        for (j = 1; j <= i; j++) {
+        for(j = i - 1; j >= 1 ; j--){
             printf("%d", j);
         }
 
-        // Print descending numbers
-        for (j = i - 1; j >= 1; j--) {
-            printf("%d", j);
-        }
-
-        printf("\n"); // Move to the next line after each row
+        printf("\n");
     }
-
-    return 0;
 }
