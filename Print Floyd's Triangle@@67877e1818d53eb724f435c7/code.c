@@ -1,11 +1,13 @@
 #include<stdio.h>
 int main(){
-   int num,row,col,count=1;
-   scanf("%d",&num);
-   for(row=1;row<=num;row++){
-    for(col=1;col<=row;col++)
-    {printf("%d ",count++);}
-   
-    printf("\n");}
-   return 0;
+    int n;
+    scanf("%d",&n);
+    int lastnumber = 0;
+    for(int i = 1; i <= n; i++){
+        for(int j = 1; j <= i; j++){
+            printf("%d", lastnumber + 1);
+            lastnumer = lastnumber + 1;
+        }
+        printf("\n");
+    }
 }
