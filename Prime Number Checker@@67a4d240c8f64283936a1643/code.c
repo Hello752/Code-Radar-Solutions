@@ -6,7 +6,7 @@ int main(){
     printf(isprime(num));
 }
 
-int isprime( int num){
+int isprime(int num){
     int factors = 0;
     for(int i = 2; i < num ; i++){
         if (num % i == 0){
