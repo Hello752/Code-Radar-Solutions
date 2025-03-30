@@ -1,11 +1,5 @@
 #include<stdio.h>
 
-int main(){
-    int n ;
-    scanf("%d",&n);
-    printf("%d", isprime(n));
-}
-
 int isprime(int num){
     if(num == 1) return 0;
     int factors = 0;
@@ -20,3 +14,10 @@ int isprime(int num){
     }
     return 1;
 }
+
+int main(){
+    int n ;
+    scanf("%d",&n);
+    printf("%d", isprime(n));
+}
+
