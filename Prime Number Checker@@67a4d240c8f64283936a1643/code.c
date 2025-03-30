@@ -17,7 +17,7 @@ void isprime(int num){
 }
 
 int main(){
-    int num ;
-    scanf("%d",&num);
+    // int num ;
+    // scanf("%d",&num);
     printf("%d", isprime(num));
 }
