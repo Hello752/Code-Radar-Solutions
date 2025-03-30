@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-void isprime(int num){
+int  isprime(num){
     int factors = 0;
     for(int i = 2; i < num ; i++){
         if (num % i == 0){
@@ -17,7 +17,7 @@ void isprime(int num){
 }
 
 int main(){
-    // int num ;
-    // scanf("%d",&num);
+    int num ;
+    scanf("%d",&num);
     printf("%d", isprime(num));
 }
