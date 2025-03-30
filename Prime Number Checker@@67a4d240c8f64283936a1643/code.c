@@ -3,7 +3,7 @@
 int main(){
     int num ;
     scanf("%d",&num);
-    printf(isprime(num));
+    print(isprime(num));
 }
 
 int isprime(int num){
