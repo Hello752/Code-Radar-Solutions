@@ -1,9 +1,9 @@
 #include<stdio.h>
 
 int main(){
-    int num ;
-    scanf("%d",&num);
-    printf("%d", isprime(num));
+    int n ;
+    scanf("%d",&n);
+    printf("%d", isprime(n));
 }
 
 int isprime(int num){
