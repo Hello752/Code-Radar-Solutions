@@ -1,0 +1,23 @@
+#include<stdio.h>
+
+int isprime(int num){
+    int factors = 0;
+    for(int i = 2; i < num ; i++){
+        if (num % i == 0){
+            factors = factors + 1;
+            break;
+        }
+    }
+    if (factors > 0){
+        return 0;
+    }
+    else{
+        return 1;
+    }
+}
+
+int main(){
+    int n;
+    scanf("%d",&n);
+    printf("%d", isprime(n));
+}
