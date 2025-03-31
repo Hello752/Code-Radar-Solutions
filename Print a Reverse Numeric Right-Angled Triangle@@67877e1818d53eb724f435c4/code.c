@@ -4,7 +4,7 @@ int main(){
    scanf("%d",&num);
    for(row=1;row<=num;row++){
     for(col=1;col<=row;col--){count=count++;}
-    {printf("%d",num);}
+    {printf("%d",col);}
    
     printf("\n");}
    return 0;
