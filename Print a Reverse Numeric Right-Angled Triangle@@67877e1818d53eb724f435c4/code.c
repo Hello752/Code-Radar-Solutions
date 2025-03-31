@@ -1,5 +1,6 @@
 #include<stdio.h>
 int main(){
+   int count;
    int num,row,col,count=1;
    scanf("%d",&num);
    for(row=1;row<=num;row++){
