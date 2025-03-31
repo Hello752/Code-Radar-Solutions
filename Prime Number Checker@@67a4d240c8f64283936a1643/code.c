@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <math.h> // Include for sqrt()
+#include <stdlib.h> // Include for sqrt()
 
 int isprime(int num) {
     if (num < 2) return 0;  // 0 and 1 are not prime
