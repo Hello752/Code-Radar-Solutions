@@ -7,6 +7,6 @@ int main(){
     printf("%d ",col);
 
    
-    printf("\n");}
+   printf("\n");}
    return 0;
 }
