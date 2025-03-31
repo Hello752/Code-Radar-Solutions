@@ -1,3 +1,5 @@
+#include<stdio.h>
+int main(){
 def find_min_subarray_length(arr):
     n = len(arr)
     if n <= 1:
@@ -33,3 +35,4 @@ for _ in range(T):
     N = int(input())
     arr = list(map(int, input().split()))
     print(find_min_subarray_length(arr))
+}
