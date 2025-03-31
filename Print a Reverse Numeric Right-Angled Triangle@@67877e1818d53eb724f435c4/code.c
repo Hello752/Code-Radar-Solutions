@@ -3,7 +3,7 @@ int main(){
    int num,row,col,count=1;
    scanf("%d",&num);
    for(row=1;row<=num;row++){
-    for(col=1;col<=row-num-i;col--)
+    for(col=1;col<=row-num-1;col--)
     {printf("%d ",count++);}
    
     printf("\n");}
