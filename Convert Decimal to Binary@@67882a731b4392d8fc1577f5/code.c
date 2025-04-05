@@ -1,34 +1,24 @@
-#include<stdio.h>
+#include <stdio.h>
 
-int main(){
+int main() {
+    int n;
+    scanf("%d", &n);
 
-  int n;
-  scanf("%d", &n);
+    if (n == 0) {
+        printf("0");
+        return 0;
+    }
 
-  int rem = 0;
-  int quot = -1;
-  int binary_num = 0;
+    int binary_num = 0, place = 1;
 
-  // convert n into binary representation
+    // Convert decimal to binary
+    while (n > 0) {
+        int rem = n % 2;
+        binary_num += rem * place;
+        n /= 2;
+        place *= 10;
+    }
 
-  while(quot != 0){
-    rem = n % 2;
-    quot = n / 2;
-     n = n / 2;
-
-    binary_num = binary_num * 10 + rem;
-  }
-
-  // reverse binary_num
-
-  int newbinary_num = 0;
-  int digit = 0;
-  while(binary_num > 0){
-
-    digit = newbinary_num % 10;
-    binary_num = binary_num / 10;
-    newbinary_num = newbinary_num * 10 + digit;
-  }
-
-  printf("%d", newbinary_num);
+    printf("%d", binary_num);
+    return 0;
 }
