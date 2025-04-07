@@ -16,9 +16,9 @@ int main()
  
     // check if original number is same as reversed number or not
     if (num == rev)
-        printf("%d is a palindrome number.", num);
+        printf("Yes");
     else
-        printf("%d is not a palindrome number.", num);
+        printf("No");
  
     return 0;
 }
