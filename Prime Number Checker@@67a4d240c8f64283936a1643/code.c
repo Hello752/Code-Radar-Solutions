@@ -9,7 +9,7 @@ int main() {
     printf("Enter a number: ");
     scanf("%d", &n);
 
-    // Call the function with the correct variable 'n'
+    // Corrected: using 'n' here, not 'num'
     printf("%d is %s\n", n, isPrime(n) ? "a prime number" : "not a prime number");
 
     return 0;
