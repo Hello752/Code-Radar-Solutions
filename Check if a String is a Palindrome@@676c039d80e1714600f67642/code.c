@@ -16,9 +16,9 @@ int main()
  
     // check if original number is same as reversed number or not
     if (num == rev)
-        printf("Yes");
-    else
         printf("No");
+    else
+        printf("Yes");
  
     return 0;
 }
