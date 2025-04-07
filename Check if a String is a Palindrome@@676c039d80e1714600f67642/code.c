@@ -2,7 +2,7 @@
 int main()
 {
     int n, rev = 0;
-    printf("Enter the number: ");
+   
     scanf("%d", &n);
  
     int num= n;  //To store the original number in the variable num
