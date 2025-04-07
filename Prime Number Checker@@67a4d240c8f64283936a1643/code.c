@@ -8,7 +8,7 @@ int main() {
     int n;
     printf("Enter a number: ");
     scanf("%d", &n);
-    printf("%d is %s\n", n, isprime(n) ? "a prime number" : "not a prime number");
+    printf("%d is %s\n", n, isprime(num) ? "a prime number" : "not a prime number");
     return 0;
 }
 
