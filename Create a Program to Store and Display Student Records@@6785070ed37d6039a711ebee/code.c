@@ -16,6 +16,6 @@
         char nam[10];
         for(int i=0;i<n;i++){scanf("%d %s %f",&students[i].rollnumber,&nam,&students[i].marks);strcpy(students[i].name,nam);}
 
-        for(int i=0;i<n;i++){printf("Roll number:%d,Name:%s,Marks:%.2f\n",students[i].rollnumber,students[i].name,students[i].marks);}
+        for(int i=0;i<n;i++){printf("Roll number: %d,Name: %s,Marks: %.2f\n",students[i].rollnumber,students[i].name,students[i].marks);}
         return 0;
     }
