@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main() {
-    strut student{
+    struct student{
         char n[100];
         float marks;
     };
