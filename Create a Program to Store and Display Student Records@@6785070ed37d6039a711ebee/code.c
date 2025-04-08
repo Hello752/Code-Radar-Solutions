@@ -2,7 +2,7 @@
 int main() {
     struct student{
         int rollnumber;
-        char n[100];
+        char name[100];
         float marks;
     };
     int main(){
