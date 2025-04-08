@@ -4,14 +4,14 @@
 // Function to check if a number is prime
 int isPrime(int number) {
     int num=1;
-    if (number ==0 || number==1){num==0};         // 0 and 1 are not prime
+    if (number ==0 || number==1){num=0;};         // 0 and 1 are not prime
             // 2 is prime
     // if (number % 2 == 0) return 0;    // Even numbers > 2 are not prime
     
     // Check for factors from 3 up to sqrt(number)
     for (int i = 2; i*i<=number ; i ++) {
         if (number % i == 0) {
-            num==0;
+            num=0;
             break; // Not prime
         }
         // num== 1;
