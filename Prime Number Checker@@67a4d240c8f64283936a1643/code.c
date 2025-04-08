@@ -3,19 +3,20 @@
 
 // Function to check if a number is prime
 int isPrime(int number) {
-    if (number ==0 || number==1) return 0;         // 0 and 1 are not prime
+    int num==1;
+    if (number ==0 || number==1){num==0};         // 0 and 1 are not prime
             // 2 is prime
     // if (number % 2 == 0) return 0;    // Even numbers > 2 are not prime
-
+    
     // Check for factors from 3 up to sqrt(number)
     for (int i = 2; i*i<=number ; i ++) {
         if (number % i == 0) {
-            return 0; // Not prime
+            num==0; // Not prime
         }
-        // return 1;
+        // num== 1;
     }
-
-    return 1; // Prime
+    return num;
+    // return 1; // Prime
 }
 
 // int main() {
