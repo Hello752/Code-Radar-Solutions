@@ -12,10 +12,10 @@ int isPrime(int number) {
         if (number % i == 0) {
             return 0; // Not prime
         }
-        return 1;
+        // return 1;
     }
 
-    // return 1; // Prime
+    return 1; // Prime
 }
 
 // int main() {
