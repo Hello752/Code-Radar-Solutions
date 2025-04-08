@@ -14,7 +14,7 @@
         scanf("%d",&n);
         struct student students[n];
         char nam[10];
-        for(int i=0;i<n;i++){scanf("%d %s %f",&students[i].rollnumber,&student[i].name,&students[i].marks);}
+        for(int i=0;i<n;i++){scanf("%d %s %f",&students[i].rollnumber,&students[i].name,&students[i].marks);}
 
         for(int i=0;i<n;i++){printf("Roll Number: %d, Name: %s, Marks: %.2f\n",students[i].rollnumber,students[i].name,students[i].marks);}
         return 0;
