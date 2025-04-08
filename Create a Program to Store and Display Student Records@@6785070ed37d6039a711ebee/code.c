@@ -10,7 +10,7 @@
     int main(){
         int n;
         scanf("%d",&n);
-        struct student students[n];\
+        struct student students[n];
         char name;
         for(int i=0;i<n;i++){scanf("%d %s %f",&students[i].rollnumber,&name,&student[i].marks);strcpy(students[i].name,name);}
 
