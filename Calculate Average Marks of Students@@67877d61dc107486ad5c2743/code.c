@@ -5,6 +5,7 @@ struct Student{
     float marks;
 };
 int main(){
+    int i;
     int n;
     float sum=0.0;
     struct Student students[n];
