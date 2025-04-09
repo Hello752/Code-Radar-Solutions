@@ -18,6 +18,6 @@ int main(){
 
     for(int i=0;i<n;i++){scanf("%d %s %f",&students[i].rollnumber,&students[i].name,&students[i].marks);}
 
-    for(int i=0;i<n;i++){printf("Top Scorer:Roll Number: %d, Name: %s, Marks: %.2f\n",students[i].rollnumber,students[i].name,students[i].marks);}
+    for(int i=0;i<n;i++){printf("Top Scorer: Roll Number: %d, Name: %s, Marks: %.2f\n",students[i].rollnumber,students[i].name,students[i].marks);}
     return 0;
 }
