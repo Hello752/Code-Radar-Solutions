@@ -3,6 +3,7 @@ struct Student{
     int rollnumber;
     char name[100];
     float marks;
+    int i;
 };
 int main(){
     int n;
