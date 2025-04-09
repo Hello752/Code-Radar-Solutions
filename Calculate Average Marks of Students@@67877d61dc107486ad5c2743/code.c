@@ -3,10 +3,11 @@ struct Student{
     int rollnumber;
     char name[100];
     float marks;
-    int i;
+
 };
 int main(){
     int n;
+    int i;
     float sum=0.0;
     struct Student students[n];
     for(int i=0;i<n;i++)
