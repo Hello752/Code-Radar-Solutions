@@ -13,7 +13,7 @@ int main(){
     {scanf("%d %s %f",&students[i].rollnumber,students[i].name,&students[i].marks);}
     sum += students[i].marks;
    float average = sum/n;
-   printf("%.2f\n",average);
+   printf("Average marks: %f",average);
    return 0;
 
 }
