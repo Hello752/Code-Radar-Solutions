@@ -26,6 +26,6 @@ int main(){
     break;
     }
     if(!found)
-   {printf("Student not found\n")}
+   {printf("Student not found\n");}
     return 0;
 }
