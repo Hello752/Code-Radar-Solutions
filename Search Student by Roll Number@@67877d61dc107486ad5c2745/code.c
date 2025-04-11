@@ -21,9 +21,12 @@ int main(){
     int  search_roll;
     scanf("%d",&search_roll);
     int found=0;
-    for(int i=0;i<n;i++){if(s[i].rollnumber==search roll)
+    for(int i=0;i<n;i++){if(s[i].rollnumber==search roll){
+     printf("Roll Number: %d, Name: %s, Marks: %.2f\n", s[i].roll, s[i].name, s[i].marks);
+
     found=1;
     break;
+    }
     }
 
     if(!found)
