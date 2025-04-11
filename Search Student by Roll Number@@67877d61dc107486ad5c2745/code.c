@@ -1,35 +1,38 @@
+#include <stdio.h>
 
-#include<stdio.h>
-
-
-struct student{
-       
+struct student {
     int rollnumber;
     char name[100];
     float marks;
 };
-    
-int main(){
 
+int main() {
     int n;
-    scanf("%d",&n);
+    scanf("%d", &n);
+
     struct student s[n];
-    
 
-    for(int i=0;i<n;i++){scanf("%d %s %f",&s[i].rollnumber,&s[i].name,&s[i].marks);}
-
-    int  search_roll;
-    scanf("%d",&search_roll);
-    int found=0;
-    for(int i=0;i<n;i++){if(s[i].roll==search roll){
-     printf("Roll Number: %d, Name: %s, Marks: %.2f\n", s[i].roll, s[i].name, s[i].marks);
-
-    found=1;
-    break;
-    }
+    for (int i = 0; i < n; i++) {
+        scanf("%d %s %f", &s[i].rollnumber, s[i].name, &s[i].marks);
     }
 
-    if(!found)
-   {printf("Student not found\n");}
+    int search_roll;
+    scanf("%d", &search_roll);
+
+    int found = 0;
+
+    for (int i = 0; i < n; i++) {
+        if (s[i].rollnumber == search_roll) {
+            printf("Roll Number: %d, Name: %s, Marks: %.2f\n", s[i].rollnumber, s[i].name, s[i].marks);
+            found = 1;
+            break;
+        }
+    }
+
+    if (!found) {
+        printf("Student not found\n");
+    }
+
     return 0;
 }
+
