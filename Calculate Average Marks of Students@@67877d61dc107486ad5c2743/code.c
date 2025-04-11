@@ -9,8 +9,6 @@ struct Student {
 int main() {
     int n;
     float sum = 0.0;
-
-    printf("Enter number of students: ");
     scanf("%d", &n);
 
     struct Student students[n];  // Now n is initialized
